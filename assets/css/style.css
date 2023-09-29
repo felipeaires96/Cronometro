@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: rgb(10, 125, 233);
+  --primary-color-darker: rgb(28, 196, 230);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+h1 {
+  font-size: 3em;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  height: 50%;
+  width: 30%;
+  margin: 230px auto;
+  background: url("https://static3.depositphotos.com/1003288/170/i/950/depositphotos_1700178-stock-photo-hourglass.jpg") no-repeat;
+ background-size: 100%;
+ background-position: center;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.relogio {
+  font-size: 4em;
+  color:#fff
+}
+
+.pausado {
+  color: red;
+}
